@@ -27,3 +27,4 @@ fetch(:default_env).merge!(wp_env: :production)
 
 set :wpcli_remote_url, 'http://www.littlebluebag.de'
 set :wpcli_local_url, 'http://localhost:9000'
+set :wpcli_options, [ ]
