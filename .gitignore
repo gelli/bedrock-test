@@ -33,3 +33,7 @@ node_modules
 # Vagrant
 bin
 .vagrant
+
+# W3 Total Cache
+web/app/cache
+web/app/w3tc-config
