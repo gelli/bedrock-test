@@ -64,6 +64,21 @@ end
 # Note that you need to have WP-CLI installed on your server
 # Uncomment the following line to run it on deploys if needed
 # after 'deploy:publishing', 'deploy:update_option_paths'
+namespace :deploy do
+  desc 'Activate configured plugins'
+  task :update_config do
+    on roles(:app) do
+      within fetch(:release_path) do
+        fetch(:wpcli_options).each do |option| 
+          execute :wp, option
+        end
+      end
+    end
+  end
+end
+after 'deploy:publishing', 'deploy:update_config'
+
+
 
 # Build dist files in the sage theme. This is done locally
 # and then pushed on the server

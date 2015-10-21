@@ -28,3 +28,8 @@ fetch(:default_env).merge!(wp_env: :staging)
 
 set :wpcli_remote_url, 'http://skunkworks.littlebluebag.de'
 set :wpcli_local_url, 'http://localhost:9000'
+
+set :wpcli_options, [
+	"plugin deactivate w3-total-cache",
+	"plugin activate ninja-forms"
+]
