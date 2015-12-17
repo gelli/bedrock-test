@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c571073f85054356798cd4b2966a76b5",
-    "content-hash": "c99feba43c60fbdd59352a6922643f8f",
+    "hash": "0e2d629c92b706e7a3bd6c185600e6b9",
+    "content-hash": "8c405d69a0378817009bcc35dbdd483a",
     "packages": [
         {
             "name": "composer/installers",
@@ -242,8 +242,28 @@
             "time": "2015-10-28 18:53:35"
         },
         {
+            "name": "wpackagist-plugin/add-from-server",
+            "version": "3.3.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/add-from-server/",
+                "reference": "tags/3.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/add-from-server.3.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/add-from-server/"
+        },
+        {
             "name": "wpackagist-plugin/advanced-responsive-video-embedder",
-            "version": "6.3.8",
+            "version": "6.3.9",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/advanced-responsive-video-embedder/",
@@ -323,15 +343,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "2.9.29",
+            "version": "2.9.31",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/2.9.29"
+                "reference": "tags/2.9.31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.29.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.31.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -383,7 +403,7 @@
         },
         {
             "name": "wpackagist-plugin/simple-download-monitor",
-            "version": "3.2.6",
+            "version": "3.2.8",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/simple-download-monitor/",
