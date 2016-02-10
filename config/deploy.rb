@@ -1,5 +1,5 @@
-set :application, 'bedrock-test'
-set :repo_url, 'git@github.com:gelli/bedrock-test.git'
+set :application, 'littlebluebag.de'
+set :repo_url, 'git@github.com:gelli/littlebluebag.de.git'
 
 # ....other configuration
 set :git_strategy, Capistrano::Git::SubmoduleStrategy
@@ -24,6 +24,9 @@ set :log_level, :info
 set :linked_files, fetch(:linked_files, []).push('.env', 'web/.htaccess')
 # set :linked_files, fetch(:linked_files, []).push('.env')
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads')
+
+# woothemes-sensei installed manually (paid plugin)
+set :linked_dirs, fetch(:linked_dirs, []).push('web/app/plugins/woothemes-sensei')
 
 namespace :deploy do
   desc 'Restart application'
@@ -69,7 +72,7 @@ namespace :deploy do
   task :update_config do
     on roles(:app) do
       within fetch(:release_path) do
-        fetch(:wpcli_options).each do |option| 
+        fetch(:wpcli_options).each do |option|
           execute :wp, option
         end
       end
@@ -85,7 +88,7 @@ after 'deploy:publishing', 'deploy:update_config'
 set :theme_path, Pathname.new('web/app/themes/stonyray')
 set :local_app_path, Pathname.new('.')
 set :local_theme_path, fetch(:local_app_path).join(fetch(:theme_path))
- 
+
 namespace :assets do
   task :compile do
     run_locally do
@@ -94,10 +97,10 @@ namespace :assets do
       end
     end
   end
- 
+
   task :copy do
     # invoke 'deploy:compile_assets'
- 
+
     on roles(:web) do
       upload! fetch(:local_theme_path).join('dist').to_s, release_path.join(fetch(:theme_path)), recursive: true
     end
@@ -121,10 +124,10 @@ namespace :assets do
       end
     end
   end
-  
+
   task deploy: %w(compile copy cleanup)
 end
- 
+
 before 'deploy:updated', 'assets:deploy'
 
 # Manual commands to sync database and files
