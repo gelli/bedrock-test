@@ -27,6 +27,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads')
 
 # woothemes-sensei installed manually (paid plugin)
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/plugins/woothemes-sensei')
+set :linked_dirs, fetch(:linked_dirs, []).push('web/app/plugins/woothemes-updater')
 
 namespace :deploy do
   desc 'Restart application'
