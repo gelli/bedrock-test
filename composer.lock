@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e2d629c92b706e7a3bd6c185600e6b9",
-    "content-hash": "8c405d69a0378817009bcc35dbdd483a",
+    "hash": "d8a6d498520b6a0fd3401d9a577c6de0",
+    "content-hash": "9225652782a980d7e3c7dd12182461b9",
     "packages": [
         {
             "name": "composer/installers",
@@ -402,6 +402,26 @@
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
+            "name": "wpackagist-plugin/rel-nofollow-checkbox",
+            "version": "1.1.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/rel-nofollow-checkbox/",
+                "reference": "tags/1.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rel-nofollow-checkbox.1.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rel-nofollow-checkbox/"
+        },
+        {
             "name": "wpackagist-plugin/simple-download-monitor",
             "version": "3.2.9",
             "source": {
@@ -463,15 +483,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "2.5.2",
+            "version": "2.5.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.5.2"
+                "reference": "tags/2.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.5.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -503,15 +523,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.0.7",
+            "version": "3.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.0.7"
+                "reference": "tags/3.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.0.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
