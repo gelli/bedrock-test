@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d8a6d498520b6a0fd3401d9a577c6de0",
-    "content-hash": "9225652782a980d7e3c7dd12182461b9",
+    "hash": "35210aee32dc9c4009c756fd54eefa9f",
+    "content-hash": "071fd0c9605850b8f7ab6d0b240a402b",
     "packages": [
         {
             "name": "composer/installers",
@@ -246,7 +246,7 @@
             "version": "3.3.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/add-from-server/",
+                "url": "https://plugins.svn.wordpress.org/add-from-server/",
                 "reference": "tags/3.3.1"
             },
             "dist": {
@@ -266,7 +266,7 @@
             "version": "6.4.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/advanced-responsive-video-embedder/",
+                "url": "https://plugins.svn.wordpress.org/advanced-responsive-video-embedder/",
                 "reference": "trunk"
             },
             "dist": {
@@ -286,7 +286,7 @@
             "version": "1.5.7",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/capability-manager-enhanced/",
+                "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
                 "reference": "trunk"
             },
             "dist": {
@@ -306,7 +306,7 @@
             "version": "1.4.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/enhanced-text-widget/",
+                "url": "https://plugins.svn.wordpress.org/enhanced-text-widget/",
                 "reference": "tags/1.4.5"
             },
             "dist": {
@@ -326,7 +326,7 @@
             "version": "5.4.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
                 "reference": "tags/5.4.6"
             },
             "dist": {
@@ -343,15 +343,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "2.9.33",
+            "version": "2.9.38",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/2.9.33"
+                "url": "https://plugins.svn.wordpress.org/ninja-forms/",
+                "reference": "tags/2.9.38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.33.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.38.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -366,7 +366,7 @@
             "version": "1.6.8",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/pretty-link/",
+                "url": "https://plugins.svn.wordpress.org/pretty-link/",
                 "reference": "tags/1.6.8"
             },
             "dist": {
@@ -386,7 +386,7 @@
             "version": "2.2.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
                 "reference": "tags/2.2.6"
             },
             "dist": {
@@ -406,7 +406,7 @@
             "version": "1.1.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/rel-nofollow-checkbox/",
+                "url": "https://plugins.svn.wordpress.org/rel-nofollow-checkbox/",
                 "reference": "tags/1.1.4"
             },
             "dist": {
@@ -423,10 +423,10 @@
         },
         {
             "name": "wpackagist-plugin/simple-download-monitor",
-            "version": "3.2.9",
+            "version": "3.3.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/simple-download-monitor/",
+                "url": "https://plugins.svn.wordpress.org/simple-download-monitor/",
                 "reference": "trunk"
             },
             "dist": {
@@ -446,7 +446,7 @@
             "version": "4.3.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/simple-image-widget/",
+                "url": "https://plugins.svn.wordpress.org/simple-image-widget/",
                 "reference": "tags/4.3.0"
             },
             "dist": {
@@ -462,11 +462,31 @@
             "homepage": "https://wordpress.org/plugins/simple-image-widget/"
         },
         {
+            "name": "wpackagist-plugin/starbox",
+            "version": "3.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/starbox/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/starbox.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/starbox/"
+        },
+        {
             "name": "wpackagist-plugin/w3-total-cache",
             "version": "0.9.4.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/w3-total-cache/",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
                 "reference": "tags/0.9.4.1"
             },
             "dist": {
@@ -483,15 +503,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "2.5.3",
+            "version": "2.5.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.5.3"
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/2.5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.5.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.5.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -506,7 +526,7 @@
             "version": "3.2.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/woocommerce-de/",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-de/",
                 "reference": "tags/3.2.0"
             },
             "dist": {
@@ -523,15 +543,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.1.1"
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/3.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.1.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -546,7 +566,7 @@
             "version": "3.3.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-biographia/",
+                "url": "https://plugins.svn.wordpress.org/wp-biographia/",
                 "reference": "tags/3.3.2"
             },
             "dist": {
@@ -566,7 +586,7 @@
             "version": "1.8.9.10",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-optimize/",
+                "url": "https://plugins.svn.wordpress.org/wp-optimize/",
                 "reference": "tags/1.8.9.10"
             },
             "dist": {
@@ -586,7 +606,7 @@
             "version": "4.3.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/yet-another-related-posts-plugin/",
+                "url": "https://plugins.svn.wordpress.org/yet-another-related-posts-plugin/",
                 "reference": "tags/4.3.1"
             },
             "dist": {
