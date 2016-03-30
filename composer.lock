@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "35210aee32dc9c4009c756fd54eefa9f",
-    "content-hash": "071fd0c9605850b8f7ab6d0b240a402b",
+    "hash": "f7b9e6a8b5e9b7f0556c8601fa64d290",
+    "content-hash": "7ef12203ab113fb788614b9494433ecc",
     "packages": [
         {
             "name": "composer/installers",
@@ -422,8 +422,28 @@
             "homepage": "https://wordpress.org/plugins/rel-nofollow-checkbox/"
         },
         {
+            "name": "wpackagist-plugin/shareaholic",
+            "version": "7.8.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/shareaholic/",
+                "reference": "tags/7.8.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/shareaholic.7.8.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shareaholic/"
+        },
+        {
             "name": "wpackagist-plugin/simple-download-monitor",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-download-monitor/",
