@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f7b9e6a8b5e9b7f0556c8601fa64d290",
-    "content-hash": "7ef12203ab113fb788614b9494433ecc",
+    "hash": "08b8c7b04dbda6443902b5547b3b8972",
+    "content-hash": "23b5ac27e549f8ec219233d72a4674dd",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.23",
+            "version": "v1.0.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
                 "shasum": ""
             },
             "require": {
@@ -40,8 +40,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,12 +56,14 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
+            "homepage": "https://composer.github.io/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
+                "ImageCMS",
                 "MODX Evo",
+                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -103,7 +105,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-01-27 12:54:22"
+            "time": "2016-04-05 11:42:46"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -343,15 +345,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "2.9.38",
+            "version": "2.9.40",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/2.9.38"
+                "reference": "tags/2.9.40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.38.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.40.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -420,6 +422,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/rel-nofollow-checkbox/"
+        },
+        {
+            "name": "wpackagist-plugin/responsive-vector-maps",
+            "version": "4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/responsive-vector-maps/",
+                "reference": "tags/4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/responsive-vector-maps.4.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/responsive-vector-maps/"
         },
         {
             "name": "wpackagist-plugin/shareaholic",
