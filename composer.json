@@ -44,7 +44,7 @@
     "php": ">=5.4",
     "composer/installers": ">=v1.0.12",
     "vlucas/phpdotenv": ">=1.0.9",
-    "johnpbloch/wordpress": "4.4.2",
+    "johnpbloch/wordpress": ">=4.4.2",
     "wpackagist-plugin/advanced-responsive-video-embedder": ">=5.3.3",
     "wpackagist-plugin/capability-manager-enhanced": ">=1.5.2",
     "wpackagist-plugin/simple-download-monitor": ">=3.2.1",
