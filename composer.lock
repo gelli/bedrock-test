@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef7d7eff0700ae3f4c9cf121ef3eea74",
-    "content-hash": "09026151e2f8f1996b9d064768c38a04",
+    "hash": "05cdb281ed6bac5ad53b8998d6aac38a",
+    "content-hash": "6fa882cdd77fff1af1b125078ee316bb",
     "packages": [
         {
             "name": "composer/installers",
@@ -590,16 +590,16 @@
             "homepage": "https://wordpress.org/plugins/woocommerce-de/"
         },
         {
-            "name": "wpackagist-plugin/woocommerce-eu-vat-assistant",
-            "version": "1.6.8.160610",
+            "name": "wpackagist-plugin/woocommerce-eu-vat-compliance",
+            "version": "1.10.26",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woocommerce-eu-vat-assistant/",
-                "reference": "tags/1.6.8.160610"
+                "url": "https://plugins.svn.wordpress.org/woocommerce-eu-vat-compliance/",
+                "reference": "tags/1.10.26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-eu-vat-assistant.1.6.8.160610.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-eu-vat-compliance.1.10.26.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -607,7 +607,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woocommerce-eu-vat-assistant/"
+            "homepage": "https://wordpress.org/plugins/woocommerce-eu-vat-compliance/"
         },
         {
             "name": "wpackagist-plugin/woocommerce-pdf-invoices-packing-slips",

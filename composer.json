@@ -56,7 +56,7 @@
     "wpackagist-plugin/regenerate-thumbnails": ">=2.2.4",
     "wpackagist-plugin/woocommerce": ">=2.3.7",
     "wpackagist-plugin/woocommerce-de": ">=3.2.0",
-    "wpackagist-plugin/woocommerce-eu-vat-assistant": ">=1.6.8.160610",
+    "wpackagist-plugin/woocommerce-eu-vat-compliance": ">=1.10.26",
     "wpackagist-plugin/woocommerce-pdf-invoices-packing-slips": ">=1.5.37",
     "wpackagist-plugin/wordpress-seo": ">=2.0.1",
     "wpackagist-plugin/wp-biographia": ">=3.3.2",
