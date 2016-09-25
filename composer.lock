@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ca2f1ee7a8d3a830944c5ef1b1688ed",
-    "content-hash": "335ab7666b52d539375fc8c691230b10",
+    "hash": "fb4bd539656b1dc5c3de3a71d3fab514",
+    "content-hash": "95484bbcb3c390b9c4d22063be7f28bc",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.25",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
                 "shasum": ""
             },
             "require": {
@@ -65,21 +65,26 @@
                 "MODX Evo",
                 "Mautic",
                 "OXID",
+                "Plentymarkets",
+                "RadPHP",
                 "SMF",
                 "Thelia",
                 "WolfCMS",
                 "agl",
                 "aimeos",
                 "annotatecms",
+                "attogram",
                 "bitrix",
                 "cakephp",
                 "chef",
+                "cockpit",
                 "codeigniter",
                 "concrete5",
                 "croogo",
                 "dokuwiki",
                 "drupal",
                 "elgg",
+                "expressionengine",
                 "fuelphp",
                 "grav",
                 "installer",
@@ -96,16 +101,18 @@
                 "piwik",
                 "ppi",
                 "puppet",
+                "reindex",
                 "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
                 "typo3",
                 "wordpress",
+                "yawik",
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-08-13 20:53:52"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -194,16 +201,16 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.3.0",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a"
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9ca5644c536654e9509b9d257f53c58630eb2a6a",
-                "reference": "9ca5644c536654e9509b9d257f53c58630eb2a6a",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
                 "shasum": ""
             },
             "require": {
@@ -215,7 +222,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
@@ -240,19 +247,19 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-06-14 14:14:52"
+            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "wpackagist-plugin/add-from-server",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/add-from-server/",
-                "reference": "tags/3.3.1"
+                "reference": "tags/3.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/add-from-server.3.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/add-from-server.3.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -264,7 +271,7 @@
         },
         {
             "name": "wpackagist-plugin/advanced-responsive-video-embedder",
-            "version": "6.4.5",
+            "version": "7.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-responsive-video-embedder/",
@@ -324,15 +331,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "5.5",
+            "version": "5.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/5.5"
+                "reference": "tags/5.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.5.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -344,15 +351,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "2.9.50",
+            "version": "3.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/2.9.50"
+                "reference": "tags/3.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.50.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -364,15 +371,15 @@
         },
         {
             "name": "wpackagist-plugin/pretty-link",
-            "version": "1.6.9",
+            "version": "1.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pretty-link/",
-                "reference": "tags/1.6.9"
+                "reference": "tags/1.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pretty-link.1.6.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/pretty-link.1.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -444,15 +451,15 @@
         },
         {
             "name": "wpackagist-plugin/shareaholic",
-            "version": "7.8.0.3",
+            "version": "7.8.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/shareaholic/",
-                "reference": "tags/7.8.0.3"
+                "reference": "tags/7.8.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shareaholic.7.8.0.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/shareaholic.7.8.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -464,7 +471,7 @@
         },
         {
             "name": "wpackagist-plugin/simple-download-monitor",
-            "version": "3.3.1",
+            "version": "3.3.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-download-monitor/",
@@ -484,15 +491,15 @@
         },
         {
             "name": "wpackagist-plugin/simple-image-widget",
-            "version": "4.4.0",
+            "version": "4.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-image-widget/",
-                "reference": "tags/4.4.0"
+                "reference": "tags/4.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-image-widget.4.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-image-widget.4.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -508,11 +515,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/starbox/",
-                "reference": "trunk"
+                "reference": "tags/3.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/starbox.zip",
+                "url": "https://downloads.wordpress.org/plugin/starbox.3.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -544,15 +551,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "2.6.1",
+            "version": "2.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.6.1"
+                "reference": "tags/2.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -583,16 +590,56 @@
             "homepage": "https://wordpress.org/plugins/woocommerce-de/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.3.2",
+            "name": "wpackagist-plugin/woocommerce-eu-vat-assistant",
+            "version": "1.6.8.160610",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.3.2"
+                "url": "https://plugins.svn.wordpress.org/woocommerce-eu-vat-assistant/",
+                "reference": "tags/1.6.8.160610"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-eu-vat-assistant.1.6.8.160610.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-eu-vat-assistant/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-pdf-invoices-packing-slips",
+            "version": "1.5.37",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-pdf-invoices-packing-slips/",
+                "reference": "tags/1.5.37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-pdf-invoices-packing-slips.1.5.37.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "3.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/3.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.5.zip",
                 "reference": null,
                 "shasum": null
             },
