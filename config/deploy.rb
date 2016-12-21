@@ -30,6 +30,8 @@ set :linked_dirs, fetch(:linked_dirs, []).push('web/app/plugins/woothemes-sensei
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/plugins/woothemes-updater')
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/plugins/instagram-feed-pro')
 
+set :default_env, { path: "~/bin:$PATH" }
+
 namespace :deploy do
   desc 'Restart application'
   task :restart do
