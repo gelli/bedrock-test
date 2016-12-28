@@ -271,7 +271,7 @@
         },
         {
             "name": "wpackagist-plugin/advanced-responsive-video-embedder",
-            "version": "7.9.23",
+            "version": "8.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-responsive-video-embedder/",
@@ -371,15 +371,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.0.18",
+            "version": "3.0.20",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.0.18"
+                "reference": "tags/3.0.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.18.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.20.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -571,15 +571,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "2.6.8",
+            "version": "2.6.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.6.8"
+                "reference": "tags/2.6.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -611,15 +611,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-eu-vat-compliance",
-            "version": "1.10.26",
+            "version": "1.10.32",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-eu-vat-compliance/",
-                "reference": "tags/1.10.26"
+                "reference": "tags/1.10.32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-eu-vat-compliance.1.10.26.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-eu-vat-compliance.1.10.32.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -651,15 +651,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.9",
+            "version": "4.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.9"
+                "reference": "tags/4.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -691,15 +691,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-optimize",
-            "version": "1.9.1",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-optimize/",
-                "reference": "tags/1.9.1"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-optimize.1.9.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-optimize.2.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -711,15 +711,15 @@
         },
         {
             "name": "wpackagist-plugin/yet-another-related-posts-plugin",
-            "version": "4.3.1",
+            "version": "4.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/yet-another-related-posts-plugin/",
-                "reference": "tags/4.3.1"
+                "reference": "tags/4.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/yet-another-related-posts-plugin.4.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/yet-another-related-posts-plugin.4.3.3.zip",
                 "reference": null,
                 "shasum": null
             },
