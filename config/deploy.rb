@@ -23,7 +23,7 @@ set :log_level, :info
 # it needs to be added to linked_files so it persists across deploys:
 set :linked_files, fetch(:linked_files, []).push('.env', 'web/.htaccess')
 # set :linked_files, fetch(:linked_files, []).push('.env')
-set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads', 'web/workshop')
+set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads')
 
 # woothemes-sensei installed manually (paid plugin)
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/plugins/woothemes-sensei')
