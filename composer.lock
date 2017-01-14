@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "512e531c01462d33d16a2e51c348fe3e",
-    "content-hash": "718bb107b4e25996a85f005b36487f18",
+    "hash": "91a087a603689490e5ee7a89f4d196da",
+    "content-hash": "d189fc05b4181f18a732e4e2c3ee98b4",
     "packages": [
         {
             "name": "composer/installers",
@@ -488,6 +488,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/shareaholic/"
+        },
+        {
+            "name": "wpackagist-plugin/shariff",
+            "version": "4.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/shariff/",
+                "reference": "tags/4.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/shariff.4.3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shariff/"
         },
         {
             "name": "wpackagist-plugin/simple-download-monitor",
