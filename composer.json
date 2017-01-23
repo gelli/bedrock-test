@@ -72,7 +72,8 @@
     "wpackagist-plugin/siteorigin-panels": "2.4.21",
     "wpackagist-plugin/so-widgets-bundle": "1.7.2",
     "wpackagist-plugin/shariff": "4.3.0",
-    "wpackagist-plugin/wordpress-importer": "0.6.3"
+    "wpackagist-plugin/wordpress-importer": "0.6.3",
+    "wpackagist-plugin/woocommerce-quick-buy": "1.2"
   },
   "extra": {
     "installer-paths": {

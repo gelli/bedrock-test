@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fcf17a82f72eda42fc31066b5d6bee6b",
-    "content-hash": "b8a40383eb6ce33199453fed85f747b7",
+    "hash": "116827223fbd1bf5e25058f9a4c96917",
+    "content-hash": "2bda9fe72c0e9f5960ff94a960deb804",
     "packages": [
         {
             "name": "composer/installers",
@@ -371,15 +371,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.0.23",
+            "version": "3.0.24",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.0.23"
+                "reference": "tags/3.0.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.23.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.24.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -391,15 +391,15 @@
         },
         {
             "name": "wpackagist-plugin/pretty-link",
-            "version": "2.0.1",
+            "version": "2.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pretty-link/",
-                "reference": "tags/2.0.1"
+                "reference": "tags/2.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pretty-link.2.0.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/pretty-link.2.0.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -611,15 +611,15 @@
         },
         {
             "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.5.1",
+            "version": "0.9.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.5.1"
+                "reference": "tags/0.9.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -631,15 +631,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "2.6.12",
+            "version": "2.6.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/2.6.12"
+                "reference": "tags/2.6.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.2.6.13.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -710,6 +710,26 @@
             "homepage": "https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/"
         },
         {
+            "name": "wpackagist-plugin/woocommerce-quick-buy",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-quick-buy/",
+                "reference": "tags/1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-quick-buy.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-quick-buy/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-importer",
             "version": "0.6.3",
             "source": {
@@ -731,15 +751,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.0.2",
+            "version": "4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.0.2"
+                "reference": "tags/4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.0.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
