@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'dotenv-rails'
-gem 'capistrano', '~> 3.2.0'
+gem 'capistrano'
 gem 'capistrano-composer'
 gem 'capistrano-wpcli'
+gem 'capistrano-git'
+gem 'capistrano-git-with-submodules'

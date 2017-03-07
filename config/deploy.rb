@@ -1,10 +1,9 @@
 set :application, 'littlebluebag.de'
 set :repo_url, 'git@github.com:gelli/littlebluebag.de.git'
 
-# ....other configuration
-set :git_strategy, Capistrano::Git::SubmoduleStrategy
-
 set :wpcli_rsync_options, %w[-avz --rsh=ssh --iconv=utf-8-mac,utf-8]
+
+set :default_env, { path: "~/bin:$PATH" }
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)
