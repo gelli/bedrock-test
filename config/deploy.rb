@@ -3,8 +3,6 @@ set :repo_url, 'git@github.com:gelli/littlebluebag.de.git'
 
 set :wpcli_rsync_options, %w[-avz --rsh=ssh --iconv=utf-8-mac,utf-8]
 
-set :default_env, { path: "~/bin:$PATH" }
-
 # Branch options
 # Prompts for the branch name (defaults to current branch)
 #ask :branch, -> { `git rev-parse --abbrev-ref HEAD`.chomp }
