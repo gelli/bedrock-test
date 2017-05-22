@@ -11,7 +11,9 @@ set :tmp_dir, ENV['PROD_TMP_DIR']
 
 # Extended Server Syntax
 # ======================
-server 'home544133102.1and1-data.host', user: 'u78512415', roles: %w{web app db}
+# server 'home544133102.1and1-data.host', user: 'u78512415', roles: %w{web app db}
+
+server 'katrinandsandra', user: 'u78512415', roles: %w{web app db}
 
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
