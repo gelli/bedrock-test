@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "382e6e8761d2df1a28a74ba60c0d0a7e",
+    "content-hash": "71535fc8079d14be4f295a0a43c39318",
     "packages": [
         {
             "name": "composer/installers",
@@ -417,15 +417,15 @@
         },
         {
             "name": "wpackagist-plugin/google-captcha",
-            "version": "1.29",
+            "version": "1.30",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-captcha/",
-                "reference": "tags/1.29"
+                "reference": "tags/1.30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-captcha.1.29.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-captcha.1.30.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -617,15 +617,15 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.21",
+            "version": "2.5.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.21"
+                "reference": "tags/2.5.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.21.zip",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.5.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -637,15 +637,15 @@
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.7.2",
+            "version": "1.9.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.7.2"
+                "reference": "tags/1.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.7.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.9.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -797,15 +797,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce-quick-buy",
-            "version": "1.2",
+            "version": "1.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce-quick-buy/",
-                "reference": "tags/1.2"
+                "reference": "tags/1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce-quick-buy.1.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-quick-buy.1.5.zip",
                 "reference": null,
                 "shasum": null
             },
