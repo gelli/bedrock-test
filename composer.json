@@ -74,7 +74,7 @@
     "wpackagist-plugin/shariff": ">=4.3.0",
     "wpackagist-plugin/wordpress-importer": ">=0.6.3",
     "wpackagist-plugin/woocommerce-quick-buy": ">=1.2",
-    "wpackagist-plugin/google-captcha": ">=1.29",
+    "wpackagist-plugin/google-captcha":">=1.37",
     "wpackagist-plugin/twenty20": ">=1.2",
     "wpackagist-plugin/responsive-lightbox": ">=1.7.2",
     "wpackagist-plugin/backwpup": ">=3.4.4"
