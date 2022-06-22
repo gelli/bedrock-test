@@ -40,3 +40,7 @@ bin
 #web/app/advanced-cache.php
 capistrano.log
 settings.json
+
+.idea/
+/web/app/debug.log
+/web/nginx.conf

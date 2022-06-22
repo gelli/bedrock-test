@@ -1,14 +1,17 @@
 <?php
-/* Staging */
-define('DB_NAME', getenv('DB_NAME'));
-define('DB_USER', getenv('DB_USER'));
-define('DB_PASSWORD', getenv('DB_PASSWORD'));
-define('DB_HOST', getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost');
+/**
+ * Configuration overrides for WP_ENV === 'staging'
+ */
 
-define('WP_HOME', getenv('WP_HOME'));
-define('WP_SITEURL', getenv('WP_SITEURL'));
+use Roots\WPConfig\Config;
 
-ini_set('display_errors', 0);
-define('WP_DEBUG_DISPLAY', false);
-define('SCRIPT_DEBUG', false);
-define('DISALLOW_FILE_MODS', false); // this disables all file modifications including updates and update notifications
+/**
+ * You should try to keep staging as close to production as possible. However,
+ * should you need to, you can always override production configuration values
+ * with `Config::define`.
+ *
+ * Example: `Config::define('WP_DEBUG', true);`
+ * Example: `Config::define('DISALLOW_FILE_MODS', false);`
+ */
+
+Config::define('DISALLOW_INDEXING', true);

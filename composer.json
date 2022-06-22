@@ -17,47 +17,63 @@
     }
   ],
   "keywords": [
-    "wordpress", "stack", "capistrano", "composer", "vagrant", "wp"
+    "wordpress",
+    "stack",
+    "capistrano",
+    "composer",
+    "vagrant",
+    "wp"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
     "forum": "http://discourse.roots.io/category/bedrock"
   },
   "config": {
+    "optimize-autoloader": true,
     "preferred-install": "dist",
-    "generate-salts": true,
-    "secure-http": false
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true
+    }
   },
   "autoload": {
-    "psr-0": {"Roots\\Bedrock\\Installer": "scripts"}
+    "psr-0": {
+      "Roots\\Bedrock\\Installer": "scripts"
+    }
   },
   "scripts": {
-    "post-root-package-install": ["Roots\\Bedrock\\Installer::addSalts"]
+    "post-root-package-install": [
+      "Roots\\Bedrock\\Installer::addSalts"
+    ]
   },
   "repositories": [
     {
       "type": "composer",
-      "url": "http://wpackagist.org"
+      "url": "https://wpackagist.org"
     }
   ],
   "require": {
-    "php": ">=5.4",
-    "composer/installers": ">=v1.0.12",
-    "vlucas/phpdotenv": ">=1.0.9",
-    "johnpbloch/wordpress": ">=4.4.2",
-    "wpackagist-plugin/advanced-responsive-video-embedder":"8.10.0",
+    "php": ">=8.1",
+    "composer/installers": "^2.1",
+    "vlucas/phpdotenv": "^5.4",
+    "oscarotero/env": "^2.1",
+    "roots/bedrock-autoloader": "^1.0",
+    "roots/bedrock-disallow-indexing": "^2.0",
+    "roots/wordpress": "6.0",
+    "roots/wp-config": "1.0.0",
+    "roots/wp-password-bcrypt": "1.1.0",
+    "wpackagist-plugin/advanced-responsive-video-embedder": "9.7.7",
     "wpackagist-plugin/capability-manager-enhanced": ">=1.5.2",
-    "wpackagist-plugin/simple-download-monitor": ">=3.2.1",
+    "wpackagist-plugin/simple-download-monitor": ">=3.9.7",
     "wpackagist-plugin/enhanced-text-widget": ">=1.4.4",
     "wpackagist-plugin/google-analytics-for-wordpress": ">=5.3.3",
     "wpackagist-plugin/pretty-link": ">=1.6.5",
     "wpackagist-plugin/simple-image-widget": ">=4.2.1",
     "wpackagist-plugin/ninja-forms": ">=2.9.7",
     "wpackagist-plugin/regenerate-thumbnails": ">=2.2.4",
-    "wpackagist-plugin/woocommerce": ">=2.3.7",
-    "wpackagist-plugin/woocommerce-de": ">=3.2.0",
-    "wpackagist-plugin/woocommerce-eu-vat-compliance": ">=1.10.26",
-    "wpackagist-plugin/woocommerce-pdf-invoices-packing-slips": ">=1.5.37",
+    "wpackagist-plugin/woocommerce": ">=6.6.1",
+    "wpackagist-plugin/woocommerce-eu-vat-compliance": ">=1.26.3",
+    "wpackagist-plugin/woocommerce-pdf-invoices-packing-slips": ">=2.16.0",
     "wpackagist-plugin/wordpress-seo": ">=2.0.1",
     "wpackagist-plugin/wp-biographia": ">=3.3.2",
     "wpackagist-plugin/yet-another-related-posts-plugin": ">=4.2.4",
@@ -74,16 +90,27 @@
     "wpackagist-plugin/shariff": ">=4.3.0",
     "wpackagist-plugin/wordpress-importer": ">=0.6.3",
     "wpackagist-plugin/woocommerce-quick-buy": ">=1.2",
-    "wpackagist-plugin/google-captcha":">=1.37",
+    "wpackagist-plugin/google-captcha": ">=1.37",
     "wpackagist-plugin/twenty20": ">=1.2",
     "wpackagist-plugin/responsive-lightbox": ">=1.7.2",
-    "wpackagist-plugin/backwpup": ">=3.4.4"
+    "wpackagist-plugin/backwpup": ">=3.4.4",
+    "wpackagist-plugin/classic-widgets": "^0.3"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6.2",
+    "roave/security-advisories": "dev-latest"
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   }
